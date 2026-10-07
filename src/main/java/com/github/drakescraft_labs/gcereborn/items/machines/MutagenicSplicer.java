@@ -11,13 +11,13 @@ import org.bukkit.Sound;
 import org.bukkit.block.Block;
 import org.bukkit.inventory.ItemStack;
 
-import com.github.drakescraft_labs.slimefun4.api.items.ItemGroup;
-import com.github.drakescraft_labs.slimefun4.api.items.SlimefunItemStack;
-import com.github.drakescraft_labs.slimefun4.api.recipes.RecipeType;
-import com.github.drakescraft_labs.slimefun4.libraries.dough.inventory.InvUtils;
-import com.github.drakescraft_labs.slimefun4.libraries.dough.items.ItemUtils;
-import com.github.drakescraft_labs.slimefun4.legacy.Objects.SlimefunItem.abstractItems.MachineRecipe;
-import com.github.drakescraft_labs.slimefun4.legacy.api.inventory.BlockMenu;
+import io.github.thebusybiscuit.slimefun4.api.items.ItemGroup;
+import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
+import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
+import io.github.thebusybiscuit.slimefun4.libraries.dough.inventory.InvUtils;
+import io.github.thebusybiscuit.slimefun4.libraries.dough.items.ItemUtils;
+import me.mrCookieSlime.Slimefun.Objects.SlimefunItem.abstractItems.MachineRecipe;
+import me.mrCookieSlime.Slimefun.api.inventory.BlockMenu;
 
 import com.github.drakescraft_labs.gcereborn.GeneticChickengineering;
 import com.github.drakescraft_labs.gcereborn.core.genetics.DNA;
@@ -55,24 +55,24 @@ public class MutagenicSplicer extends AbstractMachine {
     }
 
     @Override
-    protected void constructMenu(@Nonnull com.github.drakescraft_labs.slimefun4.legacy.api.inventory.BlockMenuPreset preset) {
+    protected void constructMenu(@Nonnull me.mrCookieSlime.Slimefun.api.inventory.BlockMenuPreset preset) {
         preset.setSize(45);
         for (int i : BORDER) {
-            preset.addItem(i, com.github.drakescraft_labs.slimefun4.utils.ChestMenuUtils.getBackground(), com.github.drakescraft_labs.slimefun4.utils.ChestMenuUtils.getEmptyClickHandler());
+            preset.addItem(i, io.github.thebusybiscuit.slimefun4.utils.ChestMenuUtils.getBackground(), io.github.thebusybiscuit.slimefun4.utils.ChestMenuUtils.getEmptyClickHandler());
         }
 
         for (int i : BORDER_IN) {
-            preset.addItem(i, com.github.drakescraft_labs.slimefun4.utils.ChestMenuUtils.getInputSlotTexture(), com.github.drakescraft_labs.slimefun4.utils.ChestMenuUtils.getEmptyClickHandler());
+            preset.addItem(i, io.github.thebusybiscuit.slimefun4.utils.ChestMenuUtils.getInputSlotTexture(), io.github.thebusybiscuit.slimefun4.utils.ChestMenuUtils.getEmptyClickHandler());
         }
 
         for (int i : BORDER_OUT) {
-            preset.addItem(i, com.github.drakescraft_labs.slimefun4.utils.ChestMenuUtils.getOutputSlotTexture(), com.github.drakescraft_labs.slimefun4.utils.ChestMenuUtils.getEmptyClickHandler());
+            preset.addItem(i, io.github.thebusybiscuit.slimefun4.utils.ChestMenuUtils.getOutputSlotTexture(), io.github.thebusybiscuit.slimefun4.utils.ChestMenuUtils.getEmptyClickHandler());
         }
 
-        preset.addItem(INFO_SLOT, new com.github.drakescraft_labs.slimefun4.libraries.dough.items.CustomItemStack(Material.BLACK_STAINED_GLASS_PANE, " "), com.github.drakescraft_labs.slimefun4.utils.ChestMenuUtils.getEmptyClickHandler());
+        preset.addItem(INFO_SLOT, new io.github.thebusybiscuit.slimefun4.libraries.dough.items.CustomItemStack(Material.BLACK_STAINED_GLASS_PANE, " "), io.github.thebusybiscuit.slimefun4.utils.ChestMenuUtils.getEmptyClickHandler());
 
         for (int i : getOutputSlots()) {
-            preset.addMenuClickHandler(i, com.github.drakescraft_labs.slimefun4.utils.ChestMenuUtils.getDefaultOutputHandler());
+            preset.addMenuClickHandler(i, io.github.thebusybiscuit.slimefun4.utils.ChestMenuUtils.getDefaultOutputHandler());
         }
     }
 

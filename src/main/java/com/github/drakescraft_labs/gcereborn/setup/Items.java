@@ -7,8 +7,8 @@ import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.PotionMeta;
 import org.bukkit.potion.PotionType;
 
-import com.github.drakescraft_labs.slimefun4.api.recipes.RecipeType;
-import com.github.drakescraft_labs.slimefun4.implementation.SlimefunItems;
+import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
+import io.github.thebusybiscuit.slimefun4.implementation.SlimefunItems;
 
 import com.github.drakescraft_labs.gcereborn.GeneticChickengineering;
 import com.github.drakescraft_labs.gcereborn.items.GCEItems;
@@ -27,7 +27,7 @@ import com.github.drakescraft_labs.gcereborn.items.machines.PrivateCoop;
 import com.github.drakescraft_labs.gcereborn.items.machines.RestorationChamber;
 import com.github.drakescraft_labs.gcereborn.utils.ChickenUtils;
 
-import com.github.drakescraft_labs.slimefun4.api.items.SlimefunItem;
+import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
 
 import lombok.experimental.UtilityClass;
 
@@ -151,7 +151,7 @@ public final class Items {
             RecipeType.ENHANCED_CRAFTING_TABLE,
             new ItemStack[] {
                 new ItemStack(Material.BLACKSTONE), SlimefunItems.SMALL_CAPACITOR, new ItemStack(Material.BLACKSTONE),
-                new ItemStack(Material.CHAIN), null, new ItemStack(Material.CHAIN),
+                new ItemStack(Material.IRON_CHAIN), null, new ItemStack(Material.IRON_CHAIN),
                 new ItemStack(Material.STONE), SlimefunItems.ELECTRIC_MOTOR, new ItemStack(Material.STONE)
             }
         ).setCapacity(250).setEnergyConsumption(5).setProcessingSpeed(1).register(plugin);

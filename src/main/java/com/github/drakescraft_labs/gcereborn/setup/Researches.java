@@ -1,6 +1,6 @@
 package com.github.drakescraft_labs.gcereborn.setup;
 
-import com.github.drakescraft_labs.slimefun4.api.researches.Research;
+import io.github.thebusybiscuit.slimefun4.api.researches.Research;
 
 import com.github.drakescraft_labs.gcereborn.GeneticChickengineering;
 import com.github.drakescraft_labs.gcereborn.items.GCEItems;

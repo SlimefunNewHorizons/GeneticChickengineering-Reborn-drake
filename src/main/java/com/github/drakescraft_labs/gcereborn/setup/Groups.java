@@ -2,7 +2,7 @@ package com.github.drakescraft_labs.gcereborn.setup;
 
 import org.bukkit.Material;
 
-import com.github.drakescraft_labs.slimefun4.api.items.ItemGroup;
+import io.github.thebusybiscuit.slimefun4.api.items.ItemGroup;
 
 import com.github.drakescraft_labs.gcereborn.GeneticChickengineering;
 import com.github.drakescraft_labs.gcereborn.utils.Heads;
