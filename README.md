@@ -1,79 +1,82 @@
-> [!WARNING]
-> ### ⚠️ ARCHIVADO / CONSOLIDADO EN DRAKES-SUITES
-> Este repositorio ha sido consolidado de forma definitiva en el monorepo oficial:  
-> 👉 [**Drakes-Suites (Suite 2: DrakesBio)**](https://github.com/SlimefunNewHorizons/Drakes-Suites)  
-> Todo el desarrollo activo, optimizaciones del Ticker Engine, compatibilidad con Paper 1.21.11 y preparación para 26.X se realiza exclusivamente allí.
-
 <div align="center">
 
   <img src="https://raw.githubusercontent.com/SlimefunNewHorizons/GeneticChickengineering-Reborn-drake/main/banner.svg" alt="GeneticChickengineering-Reborn-drake Banner" width="920" />
 
-# ⚡ GeneticChickengineering-Reborn-drake
+# ⚡ Genetic Chickengineering Reborn — Drake Edition
 
-**SLIMEFUN4 ADDON · DRAKES EDITION**
+**Genetic Breeding Tiers 0-9, Resource Chickens, DNA Splicing & Biological Automation**
 
 <p>
-  <a href="https://github.com/SlimefunNewHorizons/GeneticChickengineering-Reborn-drake"><img src="https://img.shields.io/badge/GitHub-GeneticChickengineering-Reborn-drake-181717?style=for-the-badge&logo=github" alt="GitHub"/></a>
+  <a href="https://github.com/SlimefunNewHorizons/GeneticChickengineering-Reborn-drake"><img src="https://img.shields.io/badge/GitHub-GeneticChickengineering-Reborn-181717?style=for-the-badge&logo=github" alt="GitHub"/></a>
   <img src="https://img.shields.io/badge/Slimefun4-Drake_Edition-22C55E?style=for-the-badge&logo=curseforge&logoColor=white" alt="Slimefun4"/>
   <img src="https://img.shields.io/badge/Paper-1.21.11-38BDF8?style=for-the-badge&logo=minecraft&logoColor=white" alt="Paper 1.21.11"/>
   <img src="https://img.shields.io/badge/Java-21-F89820?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java 21"/>
 </p>
 
+[🇬🇧 **English**](README.md) · [🇪🇸 **Español**](README_ES.md)
+
 </div>
 
-> ### 🏰 ¡Únete a la Comunidad Oficial de DrakesCraft!
+> ### 🏰 Join the Official DrakesCraft Community!
 > 
-> * 🎮 **IP del Servidor**: `play.drakescraft.net` *(Java 1.21.11 & Bedrock)*
-> * 💬 **Discord Oficial**: [discord.gg/drakescraft](https://discord.gg/rv3vtXZTk7)
-> * 🌐 **Web & Guía**: [drakescraft.net](https://drakescraft.net) — 🛒 **Tienda**: [tienda.drakescraft.net](https://tienda.drakescraft.net)
+> * 🎮 **Server IP**: `mc.drakescraft.cl` *(Java 1.21.11 & Bedrock Port 25565 / 19132)*
+> * 💬 **Official Discord**: [discord.gg/drakescraft](https://discord.gg/rv3vtXZTk7) — *Check out `#general-english`!*
+> * 🌐 **Website & Guides**: [web.drakescraft.cl](https://web.drakescraft.cl) — 🛒 **Store**: [web.drakescraft.cl/store](https://web.drakescraft.cl/store.html)
 > 
-> *¡Juega con este addon y más de 80 expansiones optimizadas en vivo en nuestra network de supervivencia técnica!*
+> *Play with this addon alongside 80+ optimized expansions live on our technical survival network!*
 
 ---
 
----
+## 📖 What is GeneticChickengineering-Reborn?
 
-## 📖 Descripción Detallada
-
-**GeneticChickengineering-Reborn-drake** es una expansión modular del ecosistema **DrakesCraft Labs** para servidores Minecraft **Paper / Purpur 1.21.11**.
-
-Addon de Slimefun mantenido y optimizado por DrakesCraft Labs para Paper 1.21.11.
-
-Todo el contenido, recetas y maquinaria se desbloquean e investigan directamente desde la **Guía de Slimefun (`/sf guide`)** sin necesidad de comandos especiales.
+A comprehensive biological genetics expansion for Slimefun. Breed, splice, and nurture 10 tiers of specialized chickens that lay ores, Slimefun alloys, organic compounds, and nether materials.
 
 ---
 
-## ⚙️ Características y Sistemas Principales
+## ⚙️ Key Features & Systems
 
-* 🚀 **Rendimiento Optimizado**: Totalmente preparado para Java 21 sobre Paper 1.21.11, sin pausas de Garbage Collector ni telemetría externa.
-* 🛡️ **Seguridad e Integridad**: Transacciones atómicas de almacenamiento y protección estricta de inventarios.
-* 🎮 **Integración Total**: Compatible con Slimefun4-Drake, redes de logística NetworksV6, maquinaria pesada y economía global.
+* 🧬 **10 Breeding Tiers**: From Tier 0 (Basic Vanilla) to Tier 9 (Cosmic Singularities) with complex genetic mutation trees.
+* 🔬 **DNA Splicer & Incubator**: Laboratory machinery to extract genetic codes, manipulate fertility, and accelerate hatching cycles.
+* 🌾 **Automated Roosts**: Compact chicken coops with automated grain feeding and egg/resource collection systems.
+* 🛡️ **Atomic Data Safety**: Robust NBT/PDC persistent genetic markers ensuring zero loss of chicken mutations across restarts.
 
 ---
 
-## 📋 Compatibilidad Técnica
+## 📋 Technical Compatibility
 
-| Parámetro | Requisito |
+| Parameter | Requirement |
 |---|---|
-| **Servidor** | Paper / Purpur / Folia **1.21.11** |
-| **Java** | **Java 21** LTS |
-| **Core** | [Slimefun4-Drake](https://github.com/SlimefunNewHorizons/Slimefun4-Drake) |
-| **Lado** | 100% Servidor (Server-side) |
+| **Server Software** | Paper / Purpur / Folia **1.21.11** |
+| **Java Runtime** | **Java 21** LTS |
+| **Required Core** | [Slimefun4-Drake](https://github.com/SlimefunNewHorizons/Slimefun4-Drake) |
+| **Architecture** | 100% Server-Side (Vanilla Minecraft clients can join without installing client mods) |
 
 ---
 
-## 📥 Instalación
+## 📥 Installation
 
-1. Descarga el `.jar` de la última versión desde la pestaña Releases o Modrinth.
-2. Colócalo en la carpeta `plugins/` del servidor junto a `Slimefun4-Drake.jar`.
-3. Inicia o reinicia el servidor.
+1. Download the latest release `.jar` from the [Releases](https://github.com/SlimefunNewHorizons/GeneticChickengineering-Reborn-drake/releases) tab or [Modrinth](https://modrinth.com/organization/drakescraft-labs).
+2. Place the `.jar` into your server's `plugins/` directory alongside `Slimefun4-Drake.jar`.
+3. Start or restart your server. Recipes and machines will appear automatically in the Slimefun guide (`/sf guide`).
+
+---
+
+## 🛠️ Building from Source
+
+```bash
+git clone https://github.com/SlimefunNewHorizons/GeneticChickengineering-Reborn-drake.git
+cd GeneticChickengineering-Reborn-drake
+mvn clean package -DskipTests
+```
+
+The compiled artifact will be located under `target/GeneticChickengineering-Reborn-drake.jar`.
 
 ---
 
 <div align="center">
 
-**Desarrollado y Mantenido por [DrakesCraft Labs](https://github.com/SlimefunNewHorizons)**  
-Licencia **GPL-3.0-only** / **MIT**.
+**Developed and Maintained by [DrakesCraft Labs](https://github.com/SlimefunNewHorizons)**  
+Licensed under **GPL-3.0-only**.
 
 </div>
 
@@ -83,6 +86,6 @@ Licencia **GPL-3.0-only** / **MIT**.
 
 This project is a sovereign fork maintained by [**JackStar6677-1**](https://github.com/JackStar6677-1) under [**DrakesCraft Labs**](https://github.com/SlimefunNewHorizons).
 
-- **Original Project:** Created by the upstream authors and the open-source community.
-- **DrakesCraft Optimizations:** Modernized for Paper/Purpur 1.21.11+, Java 21, high concurrency, asynchronous safety, and exploit/duplication prevention.
-- **License:** Distributed under the original **GNU General Public License v3.0 (GPLv3)** (or original upstream license). See the [LICENSE](LICENSE) file for complete terms.
+- **Original Project:** Created by the upstream authors and the open-source community ([Upstream Repository](https://github.com/Slimefun)).
+- **DrakesCraft Optimizations:** Modernized for Paper/Purpur 1.21.11+, Java 21 LTS, high concurrency, asynchronous safety, and exploit/duplication prevention.
+- **License:** Distributed under the original **GPL-3.0-only** license terms. See the [LICENSE](LICENSE) file for complete details.
