@@ -142,7 +142,7 @@ public class IndustrialRoost extends AbstractMachine {
 
         ItemStack[] outArray = products.toArray(new ItemStack[0]);
         MachineRecipe recipe = new MachineRecipe(
-            GeneticChickengineering.getConfigService().isTest() ? 1 : Math.max(6, 16 - adultChickens.size() * 2),
+            GeneticChickengineering.getConfigService().isTest() ? 1 : Math.max(3, 8 - adultChickens.size()),
             adultChickens.toArray(new ItemStack[0]),
             outArray
         );

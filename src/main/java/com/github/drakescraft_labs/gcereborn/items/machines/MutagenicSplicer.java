@@ -137,7 +137,7 @@ public class MutagenicSplicer extends AbstractMachine {
         ChickenUtils.setExpandedPocketChicken(mutated, json, originalDna, matchedSpecies);
 
         MachineRecipe recipe = new MachineRecipe(
-            GeneticChickengineering.getConfigService().isTest() ? 1 : 30,
+            GeneticChickengineering.getConfigService().isTest() ? 1 : 12,
             new ItemStack[] {chickenItem, serumItem, catalystItem},
             new ItemStack[] {mutated}
         );

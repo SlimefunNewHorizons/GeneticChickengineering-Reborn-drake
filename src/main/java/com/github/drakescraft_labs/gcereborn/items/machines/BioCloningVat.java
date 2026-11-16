@@ -102,7 +102,7 @@ public class BioCloningVat extends AbstractMachine {
         returnedParent.setAmount(1);
 
         MachineRecipe recipe = new MachineRecipe(
-            GeneticChickengineering.getConfigService().isTest() ? 1 : 20,
+            GeneticChickengineering.getConfigService().isTest() ? 1 : 10,
             new ItemStack[] {chickenItem, nutrientGel},
             new ItemStack[] {returnedParent, babyClone}
         );
