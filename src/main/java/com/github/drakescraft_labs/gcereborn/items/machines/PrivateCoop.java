@@ -106,7 +106,7 @@ public class PrivateCoop extends AbstractMachine {
             return null;
         }
         MachineRecipe recipe = new MachineRecipe(
-            config.isTest() ? 1 : 60,
+            config.isTest() ? 1 : 25,
             new ItemStack[] {parents.get(0), parents.get(1)},
             new ItemStack[] {baby}
         );

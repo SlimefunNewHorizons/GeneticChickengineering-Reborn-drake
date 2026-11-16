@@ -91,7 +91,7 @@ public class GrowthChamber extends AbstractMachine {
                 ChickenUtils.setPocketChicken(output, adapter, new DNA(dnaState));
             }
 
-            int processTime = isRapidFeed ? 10 : config.getGrowthChamberTime();
+            int processTime = isRapidFeed ? 5 : config.getGrowthChamberTime();
             if (config.isTest()) {
                 processTime = 1;
             }
